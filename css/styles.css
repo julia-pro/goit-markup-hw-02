@@ -367,7 +367,6 @@
   color: #ffffff;
 }
 .footer-google {
-  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -375,18 +374,17 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
 .footer-mail {
-  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-
+  text-decoration: none;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  position: absolute;
 }
 .footer-tel {
   text-decoration: none;
