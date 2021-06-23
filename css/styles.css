@@ -288,6 +288,7 @@
 }
 /*=====END=TEAM======*/
 /*=====FOOTER========*/
+
 .footer-section {
   background: #2f303a;
 }
@@ -299,6 +300,7 @@
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
 .logo-span {
   color: #2196f3;
@@ -306,6 +308,7 @@
 .logo-span-footer {
   color: #ffffff;
 }
+
 .footer-google {
   font-family: Roboto;
   font-style: normal;
