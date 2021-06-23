@@ -422,6 +422,10 @@ li {
   color: #212121;
   cursor: pointer;
 }
+.active {
+  background: #2196f3;
+  color: #ffffff;
+}
 .button-01:hover,
 .button-01:focus {
   color: #ffffff;
