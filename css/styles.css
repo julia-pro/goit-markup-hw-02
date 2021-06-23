@@ -71,14 +71,15 @@
 }
 
 /*===========HERO========== */
-
+.hero-background {
+  background: #2f303a;
+}
 .main-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -212,26 +213,12 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-.frame-igor {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 1635px;
-  background: #ffffff;
-  /* material shadow v1 */
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
 .name-igor {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -241,22 +228,8 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-  text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-}
-.frame-olga {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 1635px;
-  background: #ffffff;
-  /* material shadow v1 */
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 .name-olga {
   font-family: Roboto;
@@ -264,8 +237,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -275,65 +246,34 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-  text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.frame-nikolaj {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 815px;
-  top: 1635px;
-  background: #ffffff;
-  /* material shadow v1 */
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.frame-nikolaj {
+.name-nikolaj {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.about-nikolay {
+.about-nikolaj {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-  text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.frame-mihail {
-  position: absolute;
-  width: 270px;
-  height: 368px;
-  left: 1115px;
-  top: 1635px;
-  background: #ffffff;
-  /* material shadow v1 */
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
+
 .name-mihail {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -343,14 +283,14 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-  text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
 /*=====END=TEAM======*/
 /*=====FOOTER========*/
-
+.footer-section {
+  background: #2f303a;
+}
 .logo-desc {
   font-family: Raleway;
   font-style: normal;
@@ -385,6 +325,7 @@
   text-decoration: none;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .footer-tel {
   text-decoration: none;
@@ -393,9 +334,9 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 60px;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 /*=====END==FOOTER=====*/
 /*==========PORTFOLIO=HEADER========= */
