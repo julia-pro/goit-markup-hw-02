@@ -1,3 +1,11 @@
+:root {
+  --main-color: #000000;
+  --second-text-color: #2196f3;
+  --title-color: #212121;
+  --second-title-color: #ffffff;
+  --bg-color: #2f303a;
+  --text-about: #757575;
+}
 /*========HEDER======== */
 .link {
   text-decoration: none;
@@ -14,65 +22,63 @@
   line-height: 31px;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 
 .logo-span-1 {
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 .logo-span-2 {
-  color: black;
+  color: var(--main-color);
 }
 
 .menu-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: black;
+  color: var(--main-color);
 }
 .menu-link.current {
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 
 .mail-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--main-color);
 }
 
 .mail-link:hover,
 .mail-link:focus {
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 
 .tel-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--title-color);
 }
 
 .tel-link:hover,
 .tel-link:focus {
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 
 /*===========HERO========== */
 .hero-background {
-  background: #2f303a;
+  background: var(--bg-color);
 }
 .main-title {
   font-family: Roboto;
@@ -82,7 +88,7 @@
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--second-title-color);
 }
 
 .modal-btn {
@@ -92,9 +98,8 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   cursor: pointer;
-  color: #212121;
+  color: var(--title-color);
 }
 /*===========END==HERO========== */
 /*======ABOUT=US=====*/
@@ -106,8 +111,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
+  color: var(--title-color);
 }
 .advantage-001 {
   font-family: 'Roboto', sans-serif;
@@ -115,10 +119,8 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-
   letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--text-about);
 }
 .advantage-02 {
   font-family: 'Roboto', sans-serif;
@@ -128,8 +130,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
+  color: var(--title-color);
 }
 .advantage-002 {
   font-family: 'Roboto', sans-serif;
@@ -137,11 +138,8 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--text-about);
 }
 .advantage-03 {
   font-family: 'Roboto', sans-serif;
@@ -151,8 +149,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
+  color: var(--title-color);
 }
 .advantage-003 {
   font-family: 'Roboto', sans-serif;
@@ -160,11 +157,8 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--text-about);
 }
 .advantage-04 {
   font-family: 'Roboto', sans-serif;
@@ -174,8 +168,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
+  color: var(--title-color);
 }
 .advantage-004 {
   font-family: 'Roboto', sans-serif;
@@ -183,11 +176,8 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--text-about);
 }
 /*======END=ABOUT=US=====*/
 /*======WHAT=WE=DO====*/
@@ -199,7 +189,7 @@
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 /*======END=WHAT=WE=DO====*/
 /*======TEAM======*/
@@ -220,7 +210,7 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .about-igor {
   font-family: Roboto;
@@ -229,7 +219,7 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-about);
 }
 .name-olga {
   font-family: Roboto;
@@ -238,7 +228,7 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .about-olga {
   font-family: Roboto;
@@ -247,7 +237,7 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-about);
 }
 .name-nikolaj {
   font-family: Roboto;
@@ -256,7 +246,7 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .about-nikolaj {
   font-family: Roboto;
@@ -265,7 +255,7 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-about);
 }
 
 .name-mihail {
@@ -275,7 +265,7 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .about-mihail {
   font-family: Roboto;
@@ -284,13 +274,13 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-about);
 }
 /*=====END=TEAM======*/
 /*=====FOOTER========*/
 
 .footer-section {
-  background: #2f303a;
+  background: var(--bg-color);
 }
 .logo-desc {
   font-family: Raleway;
@@ -299,14 +289,14 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--second-text-color);
   text-decoration: none;
 }
 .logo-span {
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 .logo-span-footer {
-  color: #ffffff;
+  color: var(--second-title-color);
 }
 
 .footer-google {
@@ -316,7 +306,7 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--second-title-color);
   text-decoration: none;
 }
 .footer-mail {
@@ -344,21 +334,21 @@
 /*=====END==FOOTER=====*/
 /*==========PORTFOLIO=HEADER========= */
 .portfolio {
-  background-color: white;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--second-text-color);
   text-decoration: none;
+  background-color: var(--second-title-color);
 }
 .portfolio-span-1 {
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 .portfolio-span-2 {
-  color: black;
+  color: var(--main-color);
 }
 .portfolio-nav {
   font-family: 'Roboto', sans-serif;
@@ -366,14 +356,14 @@
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-  color: black;
+  color: var(--main-color);
 }
 .portfolio-nav.current {
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 .portfolio-nav:hover,
 .portfolio-nav:focus {
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 .mail-list {
   font-family: 'Roboto', sans-serif;
@@ -381,13 +371,12 @@
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--title-color);
 }
 
 .mail-list:hover,
 .mail-list:focus {
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 
 .tel-list {
@@ -396,13 +385,12 @@
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--title-color);
 }
 
 .tel-list:hover,
 .tel-list:focus {
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 
 /*==========END=PORTFOLIO=HEADER========= */
@@ -422,89 +410,21 @@ li {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
   cursor: pointer;
 }
 .active {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--second-text-color);
+  color: var(--second-title-color);
 }
 .button-01:hover,
 .button-01:focus {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--second-title-color);
+  background: var(--second-text-color);
 }
-.comp-img {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 215px;
+.box-img {
   top: 262px;
   background: url(portfolio1.jpg);
-}
-.basket-img {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 615px;
-  top: 262px;
-  background: url(portfolio2.jpg);
-}
-.fish-img {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 1015px;
-  top: 262px;
-  background: url(portfolio-1.jpg);
-}
-.naush-img {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 696px;
-  background: url(portfolio-2.jpg);
-}
-.kub-img {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 615px;
-  top: 696px;
-  background: url(portfolio5.jpg);
-}
-.monitor-img {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 1015px;
-  top: 696px;
-  background: url(111.jpg);
-}
-.magaz-img {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 1130px;
-  background: url(portfolio7.jpg);
-}
-.maket-img {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 615px;
-  top: 1130px;
-  background: url(portfolio8.jpg);
-}
-.lap-img {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  left: 1015px;
-  top: 1130px;
-  background: url(2910404.jpg);
 }
 .portfolio-h3 {
   font-family: Roboto;
@@ -513,7 +433,7 @@ li {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-color);
 }
 .portfolio-title {
   font-family: Roboto;
@@ -522,15 +442,14 @@ li {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-about);
 }
 .footer-sec {
-  position: absolute;
   width: 1600px;
   height: 252px;
   left: 0px;
   top: 1628px;
-  background: #2f303a;
+  background: var(--bg-color);
 }
 .logo-portfolio {
   width: 145px;
@@ -544,15 +463,15 @@ li {
   line-height: 31px;
 
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--second-text-color);
   text-decoration: none;
-  background: #2f303a;
+  background: var(--bg-color);
 }
 .logo-span {
-  color: #2196f3;
+  color: var(--second-text-color);
 }
 .logo-span-footer {
-  color: white;
+  color: var(--second-title-color);
 }
 .footer-map {
   font-family: Roboto;
@@ -561,7 +480,7 @@ li {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--second-title-color);
   text-decoration: none;
 }
 .footer-list-01 {
