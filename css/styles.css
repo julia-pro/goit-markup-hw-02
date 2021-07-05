@@ -6,7 +6,26 @@
   --bg-color: #2f303a;
   --text-about: #757575;
 }
-/*========HEDER======== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
 .link {
   text-decoration: none;
 }
@@ -14,7 +33,31 @@
 .list {
   list-style: none;
 }
+/*========HEDER======== */
+.container {
+  width: 1200;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+.contact-info {
+  display: flex;
+  align-items: center;
+}
 .logo {
+  margin-right: 93px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -31,8 +74,8 @@
 .logo-span-2 {
   color: var(--main-color);
 }
-
 .menu-link {
+  margin-right: 50px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -40,6 +83,7 @@
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
+
 .menu-link.current {
   color: var(--second-text-color);
 }
@@ -63,6 +107,7 @@
 }
 
 .tel-link {
+  margin-left: auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
